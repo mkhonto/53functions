@@ -19,10 +19,11 @@ TestMyCode.run("testing hello joe function", function(assert){
 });
 
 
-estMyCode.run("testing hello joe function", function(assert){
-    var result = hello_joe("jabu");
+TestMyCode.run("testing number list function", function(assert){
+    var result = number_list(10);
+    var newarray = [1,2,3,4,5,6,7,8,9,10];
     // is the result as we expected?
-    assert.equals("Hello, jabu!", result, "testing hello joe function");
+    assert.equals(newarray.toString(), result.toString(), "testing number list function");
 });
 
 results();
