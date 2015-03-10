@@ -10,8 +10,10 @@ var assert = {
     newElement.id = "square"+this.i;
     newElement.style.height = "150px";
     newElement.style.width = "150px";
-    newElement.style.border = "solid black 1px";
+    newElement.style.border = "solid black 5px";
     newElement.style.display = "inline-Block";
+    newElement.style.margin = "15px";
+   
 
     //Appending the new div you have created to the body
     document.body.appendChild(newElement);

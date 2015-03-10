@@ -26,5 +26,10 @@ TestMyCode.run("testing number list function", function(assert){
     assert.equals(newarray.toString(), result.toString(), "testing number list function");
 });
 
-results();
+TestMyCode.run("testing sum number function", function(assert){
+    var result = sum_number(15);
+    var newarray = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+    // is the result as we expected?
+    assert.equals(newarray.toString(), result.toString(), "testing sum number function");
+});
 
