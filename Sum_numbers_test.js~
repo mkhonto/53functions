@@ -1,4 +1,0 @@
-QUnit.test(" testing Sum_numbers function ", function(assert){
- var results = Sum_numbers(10);
-   assert.equal(results, 55, 'passed!');
-});

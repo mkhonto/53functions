@@ -1,7 +1,25 @@
-QUnit.test("testing  High_low_test function", function(assert){
-    var array = ["1,2,3,4,5,6,7"];
-    var result = high_low(array);
-    var expected = [7, 1];
+QUnit.test("testing high_low function", function(assert){
+    var result = high_low (32, 45, 16, 83, 26);
     // is the result as we expected?
-    assert.deepEqual(result, [1, 7]);
+    assert.deepEqual(result, {high: 83, low: 16});
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
